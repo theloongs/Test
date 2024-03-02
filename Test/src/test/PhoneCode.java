@@ -16,7 +16,7 @@ public class PhoneCode {
     private static String code;
 
     public static void main(String[] args) {
-        String phone = "18669820127"; //此处可输入你的手机号码进行测试
+        String phone = ""; //此处可输入你的手机号码进行测试
         Scanner scan = new Scanner(System.in);
         getPhonemsg(phone);
         System.out.println("请输入短信验证码:");
